@@ -1,0 +1,37 @@
+.carousel-item {
+  height: 32rem;
+}
+.bg-img1 {
+  background-size: cover;
+  background-image: url(./img1.jpg);
+}
+.bg-img2 {
+  background-size: cover;
+  background-image: url(./img2.jpg);
+}
+.bg-img3 {
+  background-size: cover;
+  background-image: url(./img3.jpg);
+}
+.bi-a1::before {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: -0.125em;
+  content: "";
+  background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23888' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>"); /* dot */
+  background-repeat: no-repeat;
+  background-size: 1rem 1rem;
+}
+.dot {
+  position: relative;
+}
+.dot::before {
+  content: "・";
+  color: black;
+  text-decoration-line: none;
+  position: absolute;
+  top: 50%;
+  margin-right: 1430px;
+  transform: translate(-80%, -50%);
+}
